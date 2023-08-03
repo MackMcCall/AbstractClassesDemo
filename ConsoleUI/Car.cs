@@ -11,7 +11,7 @@ namespace ConsoleUI
         public bool HasTrunk { get; set; }
         public override void DriveAbstract()
         {
-            Console.WriteLine($"You look through the windows at the beautiful highway around you as you drive your car.");
+            Console.WriteLine($"You look through the windows at the beautiful highway around you as you drive your {this.Model}.");
         }
     }
     /* 

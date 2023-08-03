@@ -11,7 +11,7 @@ namespace ConsoleUI
         public bool HasSideCart { get; set; }
         public override void DriveAbstract()
         {
-            Console.WriteLine("You look freely at the beautiful highway around you as you drive your motorcycle.");
+            Console.WriteLine($"You look freely at the beautiful highway around you as you drive your {this.Make}.");
         }
         public override void DriveVirtual()
         {

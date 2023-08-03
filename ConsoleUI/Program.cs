@@ -31,7 +31,7 @@ namespace ConsoleUI
             Motorcycle harley = new Motorcycle()
             {
                 Year = "1980",
-                Make = "Harley - Davidson",
+                Make = "Harley-Davidson",
                 Model = "Breakout",
                 HasSideCart = false
             };
